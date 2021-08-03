@@ -1,0 +1,19 @@
+:root{
+  --color-very-dark-magenta: #502050;
+  --color-soft-pink: #ee68a4;
+
+  --color-dark-grayish-magenta: hsl(303, 10%, 53%);
+  --color-light-grayish-magenta: hsl(300, 24%, 96%);
+  --color-white: hsl(0, 0%, 100%);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+  font-family: 'Spartan', sans-serif;
+}
