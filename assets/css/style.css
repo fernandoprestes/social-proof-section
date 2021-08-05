@@ -118,7 +118,7 @@ body {
   color: var(--color-white);
 }
 
-@media screen and (min-width: 1443px) {
+@media screen and (min-width: 1138px) {
   body {
     min-height: 100vh;
     background-image: url(../images/bg-pattern-top-desktop.svg),
@@ -132,13 +132,13 @@ body {
     height: 90vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
   }
 
   .introduction-section,
   .testimonials-boxs {
     flex-direction: row;
-    min-width: 144rem;
+    min-width: 100%;
   }
 
   .introduction-section {
@@ -185,6 +185,7 @@ body {
   .rating-box .wrapper-rate {
     display: flex;
     flex-direction: row;
+    margin-right: 3rem;
     padding: 1.5rem 5rem;
   }
 
